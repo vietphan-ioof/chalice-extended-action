@@ -7,6 +7,6 @@ LABEL maintainer="Chris Oh <chris@5tigerjelly.com> (https://5tigerjelly.com)"
 
 COPY entrypoint.sh /entrypoint.sh
 
-RUN pip install chalice boto3
+RUN pip install chalice boto3 jsonschema
 
 ENTRYPOINT ["/entrypoint.sh"]
